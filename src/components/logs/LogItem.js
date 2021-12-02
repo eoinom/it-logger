@@ -18,7 +18,7 @@ const LogItem = ({ log, deleteLog }) => {
         <a
           href='#edit-log-modal'
           className={`modal-trigger ${
-            log.attention ? 'red-text' : 'bllue-text'
+            log.attention ? 'red-text' : 'blue-text'
           }`}
         >
           {log.message}
@@ -29,7 +29,7 @@ const LogItem = ({ log, deleteLog }) => {
           <span className='black-text'>{log.tech}</span> on{' '}
           <Moment format='MMM Do YYYY, h:mm:ss a'>{log.date}</Moment>
         </span>
-        <a href='#!' onClick={onDelete()} className='secondary-content'>
+        <a href='#!' onClick={onDelete} className='secondary-content'>
           <i className='material-icons grey-text'>delete</i>
         </a>
       </div>

@@ -24,7 +24,7 @@ const AddLogModal = ({ addLog }) => {
 
       M.toast({ html: `Log added by ${tech}` });
 
-      // Clear fieldss
+      // Clear fields
       setMessage('');
       setTech('');
       setAttention(false);

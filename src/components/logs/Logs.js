@@ -29,7 +29,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
   );
 };
 
-LogItem.propTypes = {
+Logs.propTypes = {
   log: PropTypes.object.isRequired,
   getLogs: PropTypes.func.isRequired,
 };

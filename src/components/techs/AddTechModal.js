@@ -11,7 +11,7 @@ const AddTechModal = () => {
     } else {
       console.log(firstName, lastName);
 
-      // Clear fieldss
+      // Clear fields
       setFirstName('');
       setLastName('');
     }
