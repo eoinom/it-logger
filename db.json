@@ -1,5 +1,20 @@
 {
-  "logs": [],
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed network card in server 007",
+      "tech": "Sam Smith",
+      "attention": false,
+      "date": "2021-12-03T00:42:12.777Z"
+    },
+    {
+      "id": 2,
+      "message": "Fixed hard drive on workstation 003",
+      "tech": "John Doe",
+      "attention": false,
+      "date": "2021-12-03T00:59:07.720Z"
+    }
+  ],
   "techs": [
     {
       "id": 1,
